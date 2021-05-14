@@ -1,0 +1,1 @@
+web: gunicorn Predict_Air_Quality.wsgi --log-file -
