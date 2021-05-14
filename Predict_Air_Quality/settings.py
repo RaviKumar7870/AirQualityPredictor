@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_=pc$xu0q%$q_4x66@a$2k$ch_w!ozw-x1c%#b1%esx@h2u-ch
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['air-quality-predictor.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['air-qualitypredictor.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
