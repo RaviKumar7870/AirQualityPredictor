@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+  </head>
+  <body>
+    <h1>Titanic survival prediction</h1>
+    <form action="{% url 'result' %}">
+      {% csrf_token %}
+      
+      <p>SO:</p>
+      <input type="text" name="so">
+      <br>
+
+      <p>NO:</p>
+      <input type="text" name="no">
+      <br>
+
+      <p>RSPM:</p>
+      <input type="text" name="rspm">
+      <br>
+
+      <p>SPM:</p>
+      <input type="text" name="spm">
+      <br>
+
+
+      <input type="submit" value='Get Predictions'>
+    </form>
+  </body>
+</html>
